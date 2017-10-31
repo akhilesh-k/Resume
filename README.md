@@ -1,2 +1,2 @@
-# Resume
-Made using LaTeX
+#  Resume
+Made using LaTeX.
