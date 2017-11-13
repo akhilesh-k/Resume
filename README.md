@@ -1,2 +1,0 @@
-# Resume
-Made using LaTeX
