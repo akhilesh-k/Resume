@@ -1,0 +1,183 @@
+% Author: Akhilesh Kumar
+% Compiler: XeLatex
+% Configuration:
+
+%Paper size and font
+\documentclass[a4paper,10pt]{extarticle}
+% For loading fonts
+\usepackage{fontspec} 
+\defaultfontfeatures{Mapping=tex-text}
+% Used Ubuntu Fonts
+\setmainfont[Path = ./Ubuntu/,  
+ Extension = .ttf,
+ UprightFont = *-Regular,
+ BoldFont = *-Bold,
+ ItalicFont = *-Italic,
+ SmallCapsFont = *-Medium]
+{Ubuntu}
+\usepackage{color}
+\definecolor{primary}{RGB}{130, 2, 99}
+\definecolor{secondary}{RGB}{251, 139, 36}
+\usepackage{xunicode,xltxtra,url,parskip}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{geometry}
+\geometry{a4paper,margin=0.40cm}
+% Link configuration
+\usepackage{hyperref}
+% Link color
+\definecolor{linkcolour}{rgb}{0.3,0.3,0.3} 
+% Set link colors throughout the document
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} 
+
+\usepackage{titlesec}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\usepackage{multicol}
+\setlength{\columnsep}{0cm}
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\setlist[description]{%
+  topsep=10pt,
+  itemsep=1pt,
+}
+
+\def\arraystretch{1}
+\renewcommand{\baselinestretch}{1.1}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Name and Contact
+\begin{multicols}{3}
+\normalsize  \faGlobe\ {\href{http://akhilesh-k.github.io/}{\  akhilesh-k.github.io}}\\
+\normalsize \faGithub\ {\href{https://github.com/akhilesh-k}{\  akhilesh-k}}\\
+\normalsize  \faLinkedinSquare\ {\href{https://www.linkedin.com/in/akhilesh-k}{\  akhilesh-k}}\\
+\columnbreak
+\normalsize\par{\centering{\huge\textsc{\textcolor{primary}{Akhilesh} Kumar}}\par}
+\par{\centering\normalsize {\textsc{D-14, H-15, Paramar Bhawan, JUIT Waknaghat, HP, India - 173234}}\hfill\par}
+\columnbreak
+\raggedright\hfill\normalsize \faEnvelope\ {\href{mailto:akhileshk.juit@gmail.com}{\  akhileshk.juit@gmail.com}}\\
+\raggedright\hfill{\faPhone\ \  +91-9829754634}
+\end{multicols}
+
+% Education
+\vspace{-0.6cm}
+\section{\textcolor{primary}{Education}}
+\begin{tabular}{r|p{17.5cm}}	
+2016-2020 & B.Tech in \textbf{Electronics and Communication Engineering}\hfill\textsc{GPA}: 7.0/10.0\\
+\textsc{(Expected)}&\textbf{Jaypee University of Information Technology}, Waknaghat\\
+
+%&\textbf{Coursework: }{Programming and Data Structures, Algorithms-I \& II, Software Engineering, Compilers, Switching Circuits, Operating Systems, Computer Networks, Information Retrieval, Database Management Systems, Theory of Computation, Machine Learning, Image Processing, Advanced Graph Theory}
+\end{tabular}
+%Skills
+\section{\textcolor{primary}{Technical Skills}}
+
+\begin{tabular}{r|p{15cm}}
+\textsc{Programming} & \textit{Proficient:} C++, Python, Javascript\\
+& \textit{Competent:} Java, Golang, PHP \\
+\textsc{Libraries / Frameworks} & Node.js, ReactJS, Tensorflow, Keras, OpenCV, ROS\\
+\textsc{Databases} & MySQL, MongoDB\\
+\textsc{Systems / Platforms} & Git, AWS, Docker, Azure, Linux\\
+\end{tabular}
+
+\section{\textcolor{primary}{Work Experience}}
+
+\begin{tabularx}{\linewidth}{ l | X }
+
+\textsc{Jul 17} & \textbf{Machine Learning Intern}\hfill\textbf{USHR, India}\\
+\textsc{May 17}& {- Interpret data on price, yield, stability, future investment-risk trends, economic influences, and other factors affecting investment programs using Data Analytics.}\\
+& {- Worked on Data Scrapping, Fuzzing, Preprocessing on Documents and Setting up a multi-label Classifier.}\\
+\end{tabularx}
+
+% Projects
+\section{\textcolor{primary}{Academic Projects}}
+\vspace{-0.6cm}
+\begin{tabular}{p{19.7cm}}
+
+\begin{description}[style=nextline, font=$\bullet$\hspace{2mm}\normalsize]
+
+ \item [Implementation of Digital Filter in Real Time using DSP C2000 Launchpad] Designed and implement FIR and IIR digital filters in real time on the DSP C2000 LaunchPad using audible signals and tones acquired in 4 different channels and the option to mix these signals individually as part of DSP Course.
+ 
+  \item[Microwave circuit optimization for impedance matching.] Wrote Object oriented Python Script for Optimized Impedance matching in Microwave RF circuit.
+ 
+ \item[Data Communications in Python] Wrote multiple python script for explaining freqency-amplitude relationship for various Data Communication types.
+ 
+
+ \item[Response Detection in Verilog] Built an end to end system for early signal detection in Verilog.Computed D to Q delay and clock to Q delay for determining response delays. The application is Buzzer type Quiz system devices.
+\end{description}
+\end{tabular}
+\vspace{-0.3cm}
+\section{\textcolor{primary}{Hackathons \& Competitions}}
+
+\begin{tabularx}{\linewidth}{ l | X }
+\textsc{Current} & \textbf{Pedestrian Safety Device}\hfill\textbf{Smart India Hackathon '19}\\
+& {- Built a Pedestrian Detection Pipeline using INRIA dataset and YOLO model with Darknet framework. Comparatively analyzed the efficiency of alert trigger with INRIA and DALIMAR datasets.}\\
+\multicolumn{2}{c}{} \\
+\textsc{Nov 17} & \textbf{IoT based Pollution Monitoring and Waste Management for smart cities}\hfill\textbf{Smart Cities Hackathon-'18}\\
+& {- Won 2nd Prize for building a Smart City smart waste management dashboard with various utilities created for municipalities. The dashboard was built with a NodeJS backend and had several utilities including plots, optimal routes, grievance portal and municipal vehicle finder to name a few.}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Feb 17} & \textbf{Underwater Glider for Real Time Mapping with SensorTag IoT System}\hfill\textbf{Murious 2017}\\
+& {- Accomplished automated glider controlled movement with a ballast system.
+Developed obstacle-avoiding feature and
+Interfaced TI CC2650STK SensorTag with Raspberry Pi to retrieve data in real time.}\\
+\multicolumn{2}{c}{} \\
+
+
+
+
+\end{tabularx}
+
+% Position of Responsibility
+\vspace{0.2cm}
+\section{\textcolor{primary}{Extracurricular \& Leadership}}
+
+\begin{tabular}{r|p{17.5cm}}
+\textsc{Current} & \textbf{Maintainer}, MetaJUIT Wiki\\
+\textsc{Current} & \textbf{Coordinator}, JYC Media \& Publicity Committee \\
+& {- Leading a group of 45 students in areas of Digital Marketing (SMM, Email-Campaign), Graphic Designing/Video Editing}\\
+\textsc{Current} & \textbf{Overall Coordinator}, TIEDC | E-Cell of JUIT\\
+& {- Actively building a vibrant startup ecosystems in Himachal Pradesh. I managed and coordinated with a team of 40 volunteers to organize Techstars Startupweekend Solan.}\\
+\textsc{Dec 2018} & \textbf{Team Head}, Robotics \& AI Team, ACM JUIT \\
+& {- Responsible for forming event policies and managing Robotics \& AI Projects in ACM Student Chapter of JUIT.}\\
+\end{tabular}
+
+% Coursework
+
+ %\section{Coursework
+ %\hfill\small\textsc{(T)heory and (L)aboratory}}
+
+ %\begin{multicols}{2}
+ %- Programming and Data Structures (T/L) \\
+ %- Discrete Structures \\
+ %- Algorithms - II \\
+ %- Switching Circuits (T/L) \\
+ %- Operating Systems (T/L) \\
+% - Computer Networks (T/L) \\
+% - Machine Learning * \\
+% - Image Processing * \\
+% - Algorithms-I (T/L) \\
+% - Software Engineering (T/L) \\
+% - Formal Languages and Automata Theory \\
+% - Compilers (T/L) \\
+% - Database Management Systems (T/L) \\
+% - Information Retrieval \\
+% - Object Oriented Software Design * \\
+% - Advanced Graph Theory *
+ %\end{multicols}
+ %{\itshape{Currently Studying:}}\\
+
+% Achievement
+%\section{Scholastic Achievements}
+
+%\begin{multicols}{2}
+%- Secured 97.11 percentile in JEE Advanced 2015 \\
+% - Secured 95.33 percentile in JEE Mains 2015 
+% \end{multicols}
+
+%\newpage
+
+\end{document}
