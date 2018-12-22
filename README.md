@@ -34,6 +34,13 @@ May 2018 - Jun 2018
 
 ## Academic Projects
 
+### Implementation of Digital Filter in Real Time
+Oct 2018
+Guide: Dr. Nafisuddin Khan
+Course: Digital Signal Processing
+* Designed and implement FIR and IIR digital filters in real time on the DSP C2000 LaunchPad using audible signals and tones acquired in 4 different channels and the option to mix these signals individually.
+* Obtained a good response from the stopband,analyzed how the signal are supressed when the frequency generator is set to stopband frequency value.
+
 ### Latch and flip-Flop characterisation in ngspice
 Nov 2017
 Guide: Dr. Naveen Jaglan<br>
