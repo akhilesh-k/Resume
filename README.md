@@ -1,48 +1,107 @@
-# Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)](https://raw.githubusercontent.com/akhilesh-k/Resume/master/resume.pdf)
+# Akhilesh Kumar
+### Department of Electronics and Communication Engineering
+### Undergraduate student at Jaypee University of Information Technology, Wakanaghat
+D14, H-15, Parmar Bhawan, Jaypee University of Information Technology, Waknaghat - 173234
+* akhileshk.juit@gmail.com
+* [akhilesh-k.github.io](http://akhilesh-k.github.io/)
+* +91-9829754634
+
+## Education
+
+**2016-2020**  
+B.Tech in Electronics and Communication Engineering at Jaypee University of Information Technology, Waknaghat
+
+**2015**  
+Class XII, Central Board of Secondary Education (CBSE) at DAV.P.S, Patna
+
+**2013**  
+Class X, Central Board of Secondary Education (CBSE) at DAV.P.S, Sasaram
+
+## Technical Skills
+**Programming** - Proficient: C, C++, Familiar with: Javascript, Python, Java  
+**Libraries/Frameworks** - Node.js, ReactJS, Express, jQuery, D3, Socket.io, Bootstrap, ROS  
+**Markup/Templating** - HTML, CSS, Sass, LTAEX  
+**Databases** - MySQL, MongoDB <br>
+**Systems/Platforms** - Git, AWS (RDS, S3, Redshift, DMS), Linux
+
+## Experience
+
+### Machine Learning Intern
+**USHR, Bangalore**  
+May 2018 - Jun 2018     
++ Interpret data on price, yield, stability, future investment-risk trends, economic influences, and other factors affecting investment programs using Data Analytics.
++ Worked on Data Scrapping, DataFuzzing, Data Preprocessing on Documents and Setting up a multi-label document type Classifier.
+
+## Academic Projects
+
+### Latch and flip-Flop characterisation in ngspice
+Nov 2017
+Guide: Dr. Naveen Jaglan<br>
+Course: Digital Electronics
+* Optimized size of latch and flip-flop to minimize Setup and Hold time window.
+* Computed D to Q delay and clock to Q delay using simulations in ngspice.
+
+### Lane and Vehicles Detection Pipeline
+Oct 2017  
+Guide: Dr. Meenakshi Sood
+* A computer vision software pipeline built on top of Python to identify vehicles in a video.
+* Computed Camera calibration matrix and distortion coefficients for distortion correction to raw images.
+* Uses color transforms, gradients, Sobel, HOG feature extraction on a labeled training set of images, Vehicles classifier and Linear SVM classifier.
+* Works as a pipeline on a video stream to create a heat map of recurring detection frame by frame to reject outliers and follow detected vehicles and etermine the curvature of the lane and vehicle position with respect to the center.
 
 
-[**Awesome CV**](https://github.com/akhilesh-k/Resume) is LaTeX made **resume**.It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+## Hackathons & Workshops
+
+### IoT based Pollution Monitoring and Waste Management for smart cities
+**Smart Cities Hackathon**  
+Nov 2017  
++ Established communication between dustbins & Municipalities across the city with server on web using existing network.
++ Conceptualized the Route Optimization using Google maps. Used python Requests library for sending coordinates stored.
++ Used Arduino, JS, Google Maps API and Backend of program runs on flask. Won 3rd Prize in Smart City Hackathon
+
+### Underwater Glider for Real Time Mapping with SensorTag IoT System
+**Techfest**
++ Accomplished automated glider controlled movement with a ballast system.
++ Developed obstacle-avoiding feature and algorithm for mapping of environment using MATLAB
++ Interfaced TI CC2650STK SensorTag with Raspberry Pi to retrieve data in real time.
+
+### Object Follower Robot
+**Murious 2017**  
+Jan 2017  
+- Implemented image detection algorithms using openCV for a WSAD robot which can follow a specified path using the directives sent by overhead camera whose recorded images were processed and movement were instructions generated.
+
+## Positions of Responsibility
+
+| Last Active | Position |
+|---|---|
+| Current | Maintainer, MetaJUIT Wiki |
+| Current | Squad Leader, Technology Incubation & Entreprenuership Development Cell, JUIT |  
+| Current | JYC Media & Publicity Coordinator, JUIT |  
+| Current | Team Head, Robotics and AI Team, ACM JUIT |  
+
+## Coursework
+(T)heory and (L)aboratory MooC Courses- (*)
+
+- Programming and Data Structures (T/L)
+- Electronics Devices & Circuits (T/L)
+- Object Oriented Programming (T/L)
+- Signals and Systems (T/L)
+- Engineering Mathematics (T)
+- Digital Electronics (T/L)
+- Electromagnetic Engineering (T/L)
+- Communication Systems (T/L)
+- Analog Electronics (T/L)
+- Telecommunication Networks (T/L)
+- Linear Integrated Circuits (T/L)
+- VLSI Theory & Applications (T/L)
+- Machine Learning *
+- Introduction to Computer Vision *
+- Robotics Specialization *
 
 
-## Preview
-You can see [PDF](https://github.com/akhilesh-k/Resume/blob/master/resume.pdf
+## Scholastic Achievements
+
+- Secured 96.11 percentile in JEE Advanced 2015
+- Secured 93.33 percentile in JEE Mains 2015
 
 
-
-## How to Use
-
-### Requirements
-
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
-
-### Usage
-
-At a command prompt, run
-```bash
-$ xelatex {your-cv}.tex
-```
-This should result in the creation of ``{your-cv}.pdf``
-
-
-## Credit
-### LaTeX
-LaTeX is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
-
-You can find out more about it here: [LaTeX Project](http://www.latex-project.org)
-
-### LaTeX-FontAwesome
-[LaTeX FontAwesome](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
-
-### Roboto
-[Roboto](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
-
-### Source Sans Pro
-[Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
-
-
-## Contact
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
-
-
-Good luck!
