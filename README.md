@@ -111,4 +111,5 @@ Jan 2017
 - Secured 96.11 percentile in JEE Advanced 2015
 - Secured 93.33 percentile in JEE Mains 2015
 
+[Download Pdf](http://akhileshkumar.me/resume.pdf)
 
